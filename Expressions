@@ -1,0 +1,21 @@
+
+<!DOCTYPE HTML>
+<html ng-app>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    </head>
+    <body>
+
+/*  An expression is usually wrapped inside double curly braces, such as {{ expression }}. AngularJS evaluates the expression and produces a result. Expressions can contain literals, operators, and properties.
+    
+*/
+  <p> {{ 2+2 }} </p>
+        <h1>{{9 * 7 }}</h1>
+
+/*Notice the ng-app attribute in the <html> tag. This is called a directive, and it defines that this is an AngularJS application. If we remove that directive, the expression will not be evaluated.
+*/
+
+    </body>
+</html>
+
+
